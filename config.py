@@ -7,10 +7,6 @@
 # API KEYS
 # Get free OpenTopography key at: https://portal.opentopography.org/requestApiKey
 # Get free Copernicus key at: https://dataspace.copernicus.eu (register → dashboard)
-# ----------------------------
-#OPENTOPO_API_KEY = "ab4c43e7703f9069bee17dde12eb042b"
-#COPERNICUS_CLIENT_ID = "sh-b050e5c7-1bf3-4467-9192-a03e44f6b76b"
-#COPERNICUS_CLIENT_SECRET = "xdHE41PRnWaaYNV5VbZnDF3g8rvFUoeS"
 
 # ----------------------------
 # DEM settings
@@ -19,7 +15,6 @@
 # COP30    = Copernicus 30m (best quality, same key)
 # ----------------------------
 DEM_TYPE = "SRTMGL1"
-
 # ----------------------------
 # Grid resolution in metres
 # 30 = matches DEM resolution (recommended)
