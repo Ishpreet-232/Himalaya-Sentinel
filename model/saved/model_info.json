@@ -1,0 +1,70 @@
+{
+  "features": [
+    "slope_sin",
+    "aspect_ns",
+    "rugged_n",
+    "veg_bare",
+    "slope_x_rugged",
+    "slope_x_bare",
+    "road_dist_n",
+    "river_dist_n"
+  ],
+  "raw_features": [
+    "slope_mean",
+    "aspect_mean",
+    "ruggedness_mean",
+    "road_dist",
+    "river_dist",
+    "nvdi_mean"
+  ],
+  "best_threshold": 0.4,
+  "auc_roc": 0.9408,
+  "cv_auc_mean": 0.8991,
+  "cv_auc_std": 0.0143,
+  "training_samples": 5244,
+  "landslide_cells": 247,
+  "training_region": "Chamoli, Uttarakhand",
+  "risk_weights": {
+    "landslide": 0.4,
+    "flood": 0.2,
+    "erosion": 0.15,
+    "accessibility": 0.15,
+    "terrain": 0.1
+  },
+  "risk_thresholds": {
+    "low_max": 0.3,
+    "medium_max": 0.6
+  },
+  "feature_stats": {
+    "slope_mean": {
+      "min": 1.76128179497189,
+      "max": 66.75446319580078,
+      "median": 31.02021414041519
+    },
+    "aspect_mean": {
+      "min": 3.090101453993055,
+      "max": 354.1138305664062,
+      "median": 192.6978863610162
+    },
+    "ruggedness_mean": {
+      "min": 2.777777777777778,
+      "max": 185.25,
+      "median": 46.0
+    },
+    "road_dist": {
+      "min": 6.749,
+      "max": 2624.046,
+      "median": 885.947
+    },
+    "river_dist": {
+      "min": 8.592,
+      "max": 5359.834,
+      "median": 1763.3365
+    },
+    "nvdi_mean": {
+      "min": 0.1282774302954516,
+      "max": 0.9928050563355123,
+      "median": 0.431134893135591
+    }
+  }
+}
